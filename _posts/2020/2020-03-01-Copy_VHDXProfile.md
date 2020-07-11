@@ -1,5 +1,5 @@
 ---
-Author: "LIENHARD Laurent"
+author: "LIENHARD Laurent"
 title: "Copie d'un profile UPD (VHDX)"
 excerpt: "Déplacement d'un profile UPD"
 tags:
