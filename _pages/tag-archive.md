@@ -1,6 +1,6 @@
 ﻿﻿---
-title: "Posts by Tag"
-permalink: /ByTags/
+title: "Articles par Tag"
+permalink: /articles.hmtl
 layout: tags
 author_profile: true
 ---
