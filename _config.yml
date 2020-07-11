@@ -266,6 +266,7 @@ defaults:
       toc: true
       toc_label: "Table des matières"
       toc_sticky: true
+      classes: wide
 
 ##########
 # CUSTOM #
