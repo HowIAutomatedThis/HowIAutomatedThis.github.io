@@ -1,4 +1,4 @@
-﻿﻿---
+---
 title: "Articles"
 permalink: /ByYear.html
 layout: posts
