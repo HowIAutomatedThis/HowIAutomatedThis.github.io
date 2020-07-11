@@ -279,7 +279,7 @@ defaults:
       toc: true
       toc_label: "Table des matières"
       toc_sticky: true
-      classes: wide
+      # classes: wide
       # post with future date won't show'
       future: true
   # _pages
