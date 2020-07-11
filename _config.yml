@@ -269,7 +269,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author: HIAT
+      author: LIENHARD Laurent
       author_profile: true
       read_time: true
       comments: true
