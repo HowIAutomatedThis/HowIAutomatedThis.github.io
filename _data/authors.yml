@@ -24,7 +24,6 @@ LIENHARD Laurent:
   avatar           : "/assets/images/author/laurent-photo.png"
   bio              : "Administrateur Systèmes"
   location         : "Strasbourg"
-  email            :
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
