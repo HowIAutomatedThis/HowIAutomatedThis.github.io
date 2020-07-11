@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Archive"
+    url: /archive.html
   - title: "A propos"
     url: /about.html
   - title: "Quick-Start Guide"
