@@ -1,7 +1,7 @@
 ﻿﻿---
 title: About
-layout: archive
+layout: single
 permalink: /about.html
 ---
 
-## About Me
+## A propos de moi
