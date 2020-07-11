@@ -1,4 +1,4 @@
-﻿﻿---
+---
 title: "Articles par Tag"
 permalink: /articles.html
 layout: tags
