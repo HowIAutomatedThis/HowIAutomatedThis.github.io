@@ -280,19 +280,15 @@ defaults:
       toc_label: "Table des matières"
       toc_sticky: true
       classes: wide
-
-##########
-# CUSTOM #
-##########
-# post with future date won't show'
-future: true
-
-# Show date on main page
-custom:
-  landingpage:
-    publisheddate: true
-    postlogo: false
-  post:
-    authorname: false
-    publisheddate: true
-    edit: true
+      # post with future date won't show'
+      future: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      toc: true
+      toc_label: "Table des matières"
+      toc_sticky: true
