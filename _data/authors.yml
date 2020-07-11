@@ -1,4 +1,23 @@
-﻿﻿HIAT:
+﻿﻿LIENHARD Laurent:
+  name             : "LIENHARD Laurent"
+  avatar           : "/assets/images/author/laurent-photo.png"
+  bio              : "Administrateur Systèmes"
+  location         : "Strasbourg"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/LaurentLienhard"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/IronTux"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/laurent-lienhard-61680528/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/laurent.lienhard.5"
+
+HIAT:
   name        : "HIAT"
   bio         : "What do you want, jewels? I am a very extravagant man."
   avatar      : "/assets/images/Logo/logo.png"
@@ -18,22 +37,3 @@
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/HowIAutomatedThis"
-
-LIENHARD Laurent:
-  name             : "LIENHARD Laurent"
-  avatar           : "/assets/images/author/laurent-photo.png"
-  bio              : "Administrateur Systèmes"
-  location         : "Strasbourg"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/LaurentLienhard"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/IronTux"
-    - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/laurent-lienhard-61680528/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/laurent.lienhard.5"
