@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Articles"
-    url: /articles.hmtl
+    url: /articles.html
   - title: "Archive"
     url: /archive.html
   - title: "A propos"
