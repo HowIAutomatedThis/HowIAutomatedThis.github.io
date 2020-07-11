@@ -8,7 +8,7 @@ toc_label: "Table des matières"
 toc_sticky: true
 toc_icon: "file-text"
 ---
-## Chronological
+## Chronologique
 
 <section class="archive-post-list">
    {% for post in site.posts %}
@@ -24,7 +24,8 @@ toc_icon: "file-text"
    {% endfor %}
 </section>
 
-## Per Category
+## Par catégorie
+
 {% include group-by-array collection=site.posts field="categories" %}
 
 {% for category in group_names %}
@@ -32,30 +33,5 @@ toc_icon: "file-text"
   <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2>
   {% for post in posts %}
     {% include archive-single.html %}
-  {% endfor %}
-{% endfor %}
-
-
-
-
-
-
-
-## Per Collection
-
-{% capture written_label %}'None'{% endcapture %}
-
-{% for collection in site.collections %}
-  {% unless collection.output == false or collection.label == "posts" %}
-    {% capture label %}{{ collection.label }}{% endcapture %}
-    {% if label != written_label %}
-      <h2 id="{{ label | slugify }}" class="archive__subtitle">{{ label }}</h2>
-      {% capture written_label %}{{ label }}{% endcapture %}
-    {% endif %}
-  {% endunless %}
-  {% for post in collection.docs %}
-    {% unless collection.output == false or collection.label == "posts" %}
-      {% include archive-single.html %}
-    {% endunless %}
   {% endfor %}
 {% endfor %}
