@@ -1,7 +1,7 @@
 ﻿﻿---
-title: About
+title: A propos
 layout: archive
-permalink: /about.html
+permalink: p/about.html
 ---
 
 ## A propos de moi
