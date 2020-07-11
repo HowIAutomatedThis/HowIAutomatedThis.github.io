@@ -201,7 +201,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-archives
+#  - jekyll-archives
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -210,19 +210,19 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-archives
+# - jekyll-archives
 
 
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-    - year
-  layout: archive
-  permalinks:
-    year: '/archives/year/:year/'
-    tag: '/archives/tags/:name/'
-    category: '/archives/categories/:name/'
+#jekyll-archives:
+#  enabled:
+#    - categories
+#    - tags
+#    - year
+#  layout: archive
+#  permalinks:
+#    year: '/archives/year/:year/'
+#    tag: '/archives/tags/:name/'
+#    category: '/archives/categories/:name/'
 
 # Archives
 #  Type
