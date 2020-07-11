@@ -1,4 +1,4 @@
-﻿﻿---
+---
 title: "Articles par Catégorie"
 permalink: /ByCategories.html
 layout: categories
