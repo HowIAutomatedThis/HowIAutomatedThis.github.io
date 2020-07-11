@@ -35,15 +35,3 @@ toc_icon: "file-text"
     {% include archive-single.html %}
   {% endfor %}
 {% endfor %}
-
-## Par tags
-
-{% include group-by-array collection=site.posts field="tags" %}
-
-{% for tags in group_names %}
-  {% assign posts = group_items[forloop.index0] %}
-  <h2 id="{{ tags }}" class="archive__subtitle">{{ tag }}</h2>
-  {% for post in posts %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endfor %}
