@@ -1,5 +1,10 @@
 # main links
 main:
+  - title: "Articles"
+    children: "Par Tag"
+    url: /ByTag
+  - children: "Par Catégorie"
+    url: /ByCategories
   - title: "Archive"
     url: /archive.html
   - title: "A propos"
