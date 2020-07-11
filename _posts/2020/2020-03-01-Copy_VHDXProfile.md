@@ -1,7 +1,6 @@
 ---
 title: Copie d'un profile UPD (VHDX)
 excerpt: Déplacement d'un profile UPD
-author: LIENHARD Laurent
 tags:
   - Powershell
   - RDS
