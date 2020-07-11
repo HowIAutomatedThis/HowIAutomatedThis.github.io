@@ -214,14 +214,14 @@ whitelist:
 
 
 jekyll-archives:
-  enabled: []
+  enabled: all
   layout: archive
   permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
+    year: '/archives/year/:year/'
+    month: '/archives/:year/:month/'
+    day: '/archives/:year/:month/:day/'
+    tag: '/archives/tag/:name/'
+    category: '/archives/category/:name/'
 
 # Archives
 #  Type
