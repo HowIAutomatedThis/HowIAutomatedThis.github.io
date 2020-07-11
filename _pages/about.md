@@ -1,4 +1,4 @@
-﻿﻿---
+---
 title: A propos
 layout: archive
 permalink: p/about.html
