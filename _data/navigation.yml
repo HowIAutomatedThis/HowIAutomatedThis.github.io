@@ -1,9 +1,11 @@
 # main links
 main:
   - title: "Articles"
-    url: /articles.html
-  - title: "Archive"
-    url: /archive.html
+    url: /ByYear.html
+  - title: "Tags"
+    url: /ByTag.html
+  - title: "Catégorie"
+    url: /ByCategories.html
   - title: "A propos"
     url: /about.html
   - title: "Quick-Start Guide"

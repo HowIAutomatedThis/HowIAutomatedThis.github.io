@@ -1,7 +1,7 @@
----
-title: "Articles par Tag"
-permalink: /articles.html
-layout: tags
+﻿﻿---
+title: "Articles"
+permalink: /ByYear.html
+layout: posts
 author_profile: true
 toc: true
 toc_label: "Table des matières"
