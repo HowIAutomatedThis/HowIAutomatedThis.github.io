@@ -15,12 +15,12 @@ header:
 
 ## Résumé de l'article précedent
 
-Cet article fait suite à l'article [Affectation de licence Office 365](../2020-02-01-affectation_auto_licence_o365) mais peut également être lu de façon autonome.
+Cet article fait suite à l'article [Affectation de licence Office 365](https://www.howiautomatedthis.com/2020/02/Affectation_Auto_Licence_O365.html) mais peut également être lu de façon autonome.
 
 Dans le précedent article, nous étions passé d'un mode de gestion directe des licences Office 365 (affecté via l'interface web ou script powershell) a un mode de gestion hérité (affecté par une appartenance a un groupe Active Directory)
 
 Nous en étions arrivé au constat suivant
-![Detail utilisateur](/img/Post/Affectation_Auto_Licence_O365/detail_licence.png "Detail licence")
+![Detail utilisateur](\assets\images\post\2020-02-01-Nettoyage_licences_Office365\detail_licence.png "Detail licence")
 
 Après modification du type d'affectation des licences Office 365, nous avions remarqué des doublons.
 

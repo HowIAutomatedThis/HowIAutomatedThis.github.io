@@ -96,7 +96,7 @@ ok, ok mais avant nous avons bien parlé d'un stockage dans le Coffre-Fort Windo
 
 Allons jeter une oeil dans le `Credential Manager` et effectivement on retrouve une entrée correspondant à notre utilisateur avec son mot de passe.
 
-![Credential Manager](https://github.com/LaurentLienhard/LaurentLienhard.github.io/blob/master/_posts/images/CredentialManagerWithUser.png?raw=true)
+![Credential Manager](\assets\images\post\2019-01-09-BetterCredentials\CredentialManagerWithUser.png)
 
 Afin de pouvoir récupérer ce compte il suffit de reprendre la commande
 
