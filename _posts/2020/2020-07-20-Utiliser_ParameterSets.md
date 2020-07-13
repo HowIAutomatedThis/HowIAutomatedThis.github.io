@@ -40,3 +40,37 @@ Ensuite je peux lancer la création de mes utilisateurs
 ```powershell
 New-MyADUser -UserName "Utilisateur1.Test","Utilisateur2.Test","Utilisateur3.Test"
 ```
+
+## Fonction avec un fichier en entrée
+
+Dans ce cas nous allons reprendre la même fonction mais avec en entrée la liste des noms dans un fichier csv.
+
+```powershell
+function New-MyADUser {
+    param (
+        [System.String]$FilePath
+    )
+
+    $UserName = Import-Csv -Path $FilePath
+
+    foreach ($User in $UserName) {
+        New-ADUser -name $User.UserName -GivenName ($User.UserName.Split(".")[0]) -Surname ($User.UserName.Split(".")[1]) -Server srv-ad101 -Credential $CredAdmin
+    }
+
+}
+```
+
+Ensuite je peux lancer la création de mes utilisateurs
+
+```powershell
+New-MyADUser -FilePath '.\Utiliser les Parameter Sets\Utilisateurs.csv'
+```
+
+Donc maintenant nous avons 2 fonctions différentes mais qui font sensiblement la même chose : créer des utilisateurs dans l'Active Directory
+
+C'est la que rentre en jeu les jeux de paramètre. Nous allons immédiatement voir ca :-)
+
+## Fonction avec un fichier ou un utilisateur en entrée (ParameterSet)
+
+Le but donc est de combiner ces 2 fonctions en une seule mais acceptant les 2 types de paramètre en entrée.
+
