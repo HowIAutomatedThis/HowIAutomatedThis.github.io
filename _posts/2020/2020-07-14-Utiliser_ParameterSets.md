@@ -298,7 +298,7 @@ Il suffit donc de n'__affecter__ un paramètre __a AUCUN jeux__ de paramètres p
 
 ## Conclusion
 
-Nous avons donc vu dans cette article :
+Nous avons donc vu dans cet article :
 - Qu'est-ce que c'est qu'un jeu de paramètres
 - A quoi sert un jeu de paramètres
 - Comment affecter un paramètre à plusieurs jeux de paramètres
