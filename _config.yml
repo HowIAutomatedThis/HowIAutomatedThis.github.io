@@ -70,9 +70,9 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : "HIAT59663068"
+  username               :
 facebook:
-  username               : "HowIAutomatedThis"
+  username               :
   app_id                 :
   publisher              :
 og_image                 : "/assets/images/Logo/logo.png" # Open Graph/Twitter default site image
