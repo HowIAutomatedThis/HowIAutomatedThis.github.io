@@ -234,7 +234,7 @@ Duplicate parameter $Password in parameter list.
 
 Donc on ne peut pas mettre 2 fois le même nom de paramètre !
 
-Soit je ne peux pas définir 2 paramètres identiques dans 2 jeux de paramètre distinct mais est-ce que je peux définir 1 paramètre qui sera disponible dans les 2 jeux ?
+Soit! Je ne peux pas définir 2 paramètres identiques dans 2 jeux de paramètre distinct, mais est-ce que je peux définir 1 paramètre qui sera disponible dans les 2 jeux ?
 
 et si on essayait cela
 
