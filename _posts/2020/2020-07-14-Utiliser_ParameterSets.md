@@ -138,15 +138,16 @@ function New-MyADUser {
 ```
 
 Si je fait ```New-MyADUser -Username "Utilisateur.Test"``` le résultat sera
+
 ```powershell
 ▶ New-MyADUser -UserName "Utilisateur.test"
 
 ByUserName
 ```
 
-```powershell
-
 Si je fait ```New-MyADUser -FileName ".\Utiliser les Parameter Sets\Utilisateurs.csv"``` le résultat sera
+
+```powershell
 ▶ New-MyADUser -FileName ".\Utiliser les Parameter Sets\Utilisateurs.csv"
 
 ByFileName
