@@ -185,7 +185,7 @@ function New-MyADUser {
 ```
 
 {% capture mynote%}
-Cette fonction pourrait-être encore simplifier mais ce n'est pas l'objet de cette article
+Cette fonction pourrait encore être simplifiée mais ce n'est pas l'objet de cette article
 {% endcapture %}
 {{mynote}}{: .notice--info}
 
@@ -193,7 +193,7 @@ Voilà comment faire pour l'utilisation des jeux de paramètres
 
 Si vous avez des questions ou ...
 
-Attendez ! je suis sur que vous vous posez une question !
+Attendez ! je suis sur que vous vous en posez une dès à présent !
 
 Si! Si!
 
@@ -201,7 +201,7 @@ Vous savez la fameuse question : Comment je fais si un paramètre doit faire par
 
 Nous allons tenter d'y répondre ;-)
 
-### Un paramètre dans plusieurs jeux de paramètres.
+### Un paramètre dans plusieurs jeux de paramètres
 
 Bon la plus logique des approches si vous avez compris le principe serait de faire
 
