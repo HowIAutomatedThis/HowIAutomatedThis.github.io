@@ -116,7 +116,7 @@ At line:1 char:1
 
 La commande ne peut pas trouver quel jeu de paramètre elle doit executer.
 
-Bon maintenant que je peux appeller ma fonction avec les 2 types de paramètre comment faire dans la fonction pour traiter chacun des paramètres.
+Bon maintenant que je peux appeler ma fonction avec les 2 types de paramètre comment faire dans la fonction pour traiter chacun des paramètres.
 
 ### $PSCmdlet.ParameterSetName
 
@@ -145,6 +145,8 @@ ByUserName
 ```
 
 ```powershell
+
+Si je fait ```New-MyADUser -FileName '.\Utiliser les Parameter Sets\Utilisateurs.csv'``` le résultat sera
 ▶ New-MyADUser -FileName '.\Utiliser les Parameter Sets\Utilisateurs.csv'
 
 ByFileName
