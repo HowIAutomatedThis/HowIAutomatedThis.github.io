@@ -267,7 +267,7 @@ New-MyADUser [-FileName <DirectoryInfo>] [-Password <string>] [<CommonParameters
 
 Le paramètre ```password```se retrouve bien dans les 2 jeux de paramètres : VICTOIRE !
 
-En extrapolant un peu, on peu s'imaginer avoir plusieurs jeux de paramètres pour une fonction. il semble évident que cela va être compliqué de mettre un paramètre dans tous les jeux de paramètres de cette facon.
+En extrapolant un peu, on peu s'imaginer avoir plusieurs jeux de paramètres pour une fonction. il semble évident que cela va être compliqué de mettre un paramètre dans tous les jeux de paramètres de cette façon.
 
 Et si pour simplifier nous le mettions tous simplement dans aucun !
 
@@ -302,6 +302,7 @@ Il suffit donc de n'__affecter__ un paramètre __a AUCUN jeux__ de paramètres p
 ## Conclusion
 
 Nous avons donc vu dans cet article :
+
 - Qu'est-ce que c'est qu'un jeu de paramètres
 - A quoi sert un jeu de paramètres
 - Comment affecter un paramètre à plusieurs jeux de paramètres
