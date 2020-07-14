@@ -146,8 +146,8 @@ ByUserName
 
 ```powershell
 
-Si je fait ```New-MyADUser -FileName '.\Utiliser les Parameter Sets\Utilisateurs.csv'``` le résultat sera
-▶ New-MyADUser -FileName '.\Utiliser les Parameter Sets\Utilisateurs.csv'
+Si je fait ```New-MyADUser -FileName ".\Utiliser les Parameter Sets\Utilisateurs.csv"``` le résultat sera
+▶ New-MyADUser -FileName ".\Utiliser les Parameter Sets\Utilisateurs.csv"
 
 ByFileName
 ```
