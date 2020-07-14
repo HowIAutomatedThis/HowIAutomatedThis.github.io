@@ -188,7 +188,7 @@ function New-MyADUser {
 ```
 
 {% capture mynote%}
-Cette fonction pourrait encore être simplifiée mais ce n'est pas l'objet de cette article
+Cette fonction pourrait encore être simplifiée mais ce n'est pas l'objet de cet article
 {% endcapture %}
 {{mynote}}{: .notice--info}
 
