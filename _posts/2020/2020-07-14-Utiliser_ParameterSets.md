@@ -1,5 +1,5 @@
 ---
-title: Utiliser Parameter Sets !
+title: Utiliser les Parameter Sets !
 excerpt: Utiliser des jeux de paramètres pour simplifier les commandes PowerShell
 tags:
   - Powershell
