@@ -130,4 +130,74 @@ https://aka.ms/powershell
 Type 'help' to get help.
 ```
 
+2 fichiers sont crées :
+* devcontainer.json (contient la configuration du conteneur de VS Code) : est utilisé pour lancer votre conteneur de développement. Vous pouvez également spécifier les extensions à installer une fois que le conteneur est en cours d'exécution ou post-créer des commandes pour préparer l'environnement
+* Dockerfile (contient la définition de la machine docker)
 
+En regardant dans le fichier ```devcontainer.json``` on remarque une partie extension. Effectivement l'avantage de cette solution est que justement comme nous sommes dans un container nos environnements locaux et ```"containeurisés"``` sont distincts.
+
+0n le voit bien en regardant dans la liste des extensions installées, on a bien des extensions locales et des extensions dans le container. Ici dans le container je n'ai que Powershell puisque c'est la seule extension que je demande a installer dans le fichier ```devcontainer.json```
+
+![Extension Container](\assets\images\post\2020-07-31-Remote _Containers\ListeExtensionContainer.png "Extension Container")
+
+je vais ajouter une extension Code Spell Checker et le pack de langue francais.
+
+Pour ce faire je modifie le fichier en ajoutant :
+
+```powershell
+	"extensions": [
+		"ms-vscode.powershell",
+		"streetsidesoftware.code-spell-checker",
+		"streetsidesoftware.code-spell-checker-french"
+	],
+  ```
+
+En cliquant sur l'icone en bas a gauche on peut choisir le menu ```Rebuild Container```
+
+![Rebuild Container](\assets\images\post\2020-07-31-Remote _Containers\RebuildContainer.png "Rebuild Container")
+
+En revérifiant la liste des extensions on voit bien que les nouvelles extensions sont installées dans le container mais pas sur ma machine locale
+
+![Extension Container](\assets\images\post\2020-07-31-Remote _Containers\ListeExtensionContainer2.png "Extension Container")
+
+PARFAIT ! je peux donc configurer mon VSCode différemment pour chaque environnement de développement.
+
+Après les extensions dans notre environnement de développement on peut également configurer tous les modules nécessaires.
+
+Pour se faire dans le fichier ```devcontainer.json``` j'ajoute la commande suivante :
+
+```powershell
+"postStartCommand": "pwsh -c 'Install-module PSHTML,PSAKE,PLASTER -scope CurrentUser -force'"
+```
+
+en faisant ça, je demande à mon container d'executer la commande après son démarrage et d'installer les modules PSAKE, PLASTER et [PSHMTL](https://github.com/Stephanevg/PSHTML) (de mon ami Stéphane Van Gullick)
+
+RE-PARFAIT ! Je peux configurer mon environnement de développement comme je le souhaites.
+
+## Conclusion
+
+Si nous reprenons les critères que nous avions définis au début de l'article
+
+* légère a deployer
+* maîtrisée - invariable dans le temps
+* facilement réutilisable
+
+On peut dire, je pense, que l'extension ```Remote - Container``` y répond
+
+
+## PS : Apprendre un nouveau langage (GO, Node.js, ...)
+
+Personnellement je pense utiliser l'extension ```Remote -Container``` dans le cadre de mon apprentissage de nouveau langage de développement.
+
+Je m'intéresse, par exemple, a GO et Node.js et je peux donc utilise cette extension pour monter des environnements de test sans impacter ma machine personnel ;-)
+
+Autre avantage et pas des moindres, si vous choisissez Node.js comme environment tout est installé, il ne reste plus qu'a coder !
+
+![Node Container](\assets\images\post\2020-07-31-Remote _Containers\NodeContainer.png "Node Container")
+
+```powershell
+node@07d7f88a44d2:/workspaces/vscode-remote-try-node$ node --version
+v12.18.1
+```
+
+et voila un environnement node.js tous propre ;-)
