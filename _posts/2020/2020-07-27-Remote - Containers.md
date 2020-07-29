@@ -189,7 +189,7 @@ On peut dire, je pense, que l'extension ```Remote - Container``` y répond
 
 Personnellement je pense utiliser l'extension ```Remote -Container``` dans le cadre de mon apprentissage de nouveau langage de développement.
 
-Je m'intéresse, par exemple, a GO et Node.js et je peux donc utilise cette extension pour monter des environnements de test sans impacter ma machine personnel ;-)
+Je m'intéresse, par exemple, a GO et Node.js et je peux donc utilise cette extension pour monter des environnements de test sans impacter ma machine personnelle ;-)
 
 Autre avantage et pas des moindres, si vous choisissez Node.js comme environment tout est installé, il ne reste plus qu'a coder !
 
