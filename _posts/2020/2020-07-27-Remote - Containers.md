@@ -55,11 +55,11 @@ Ma machine de travail étant sous Windows 10 il faut installer en pré-requis  [
 
 Une fois l'installation de Docker effectuée, il faut installer l'extension ```Remote - Development``` dans Visual Studio Code :
 
-![Installation Extension](\assets\images\post\2020-07-31-Remote _Containers\InstallationExtension.png "Installation Extension")
+![Installation Extension](\assets\images\post\2020-07-27-Remote _Containers\InstallationExtension.png "Installation Extension")
 
 Une fois installé, on retrouve bien les 3 extensions contenues dans le pack
 
-![Liste Extension](\assets\images\post\2020-07-31-Remote _Containers\ListeExtension.png "Liste Extension")
+![Liste Extension](\assets\images\post\2020-07-27-Remote _Containers\ListeExtension.png "Liste Extension")
 
 ### Test
 
@@ -67,33 +67,33 @@ L'extension possède un mode de test que nous allons utiliser tout de suite pour
 
 Pour tester il suffit de cliquer sur l'icône apparue en bas a gauche dans VSCode
 
-![Icône Extension](\assets\images\post\2020-07-31-Remote _Containers\IconeExtension.png "Icône Extension")
+![Icône Extension](\assets\images\post\2020-07-27-Remote _Containers\IconeExtension.png "Icône Extension")
 
 De choisir dans le menu ```Try a sample```
 
-![Test Extension](\assets\images\post\2020-07-31-Remote _Containers\TryExtension.png "Test Extension")
+![Test Extension](\assets\images\post\2020-07-27-Remote _Containers\TryExtension.png "Test Extension")
 
 On va prendre l'environnement ```Node``` pour tester
 
-![Test Node](\assets\images\post\2020-07-31-Remote _Containers\NodeEnv.png "Test Node")
+![Test Node](\assets\images\post\2020-07-27-Remote _Containers\NodeEnv.png "Test Node")
 
 Une fois l'environnement choisi, VSCode va se rouvrir et démarrer automatiquement un container avec toute la configuration nécessaire
 
-![Start Node](\assets\images\post\2020-07-31-Remote _Containers\StartNodeEnv.png "Start Node")
+![Start Node](\assets\images\post\2020-07-27-Remote _Containers\StartNodeEnv.png "Start Node")
 
 Dans le terminal on peut vérifier que nous sommes bien dans une environnement Node
 
-![Node Version](\assets\images\post\2020-07-31-Remote _Containers\NodeVersion.png "Node Version")
+![Node Version](\assets\images\post\2020-07-27-Remote _Containers\NodeVersion.png "Node Version")
 
 Pour quitter cette environnement de travail il faut de nouveau cliquer sur l'icone en bas a gauche de VSCode et chossir ```Close remote Connection``` dans le menu
 
-![Close Node](\assets\images\post\2020-07-31-Remote _Containers\CloseNodeEnv.png "Close Node")
+![Close Node](\assets\images\post\2020-07-27-Remote _Containers\CloseNodeEnv.png "Close Node")
 
 ### Powershell
 
 Ok maintenant que l'on a vu comment installer l'extension et qu'on a vérifié que tout fonctionne nous allons voir comment configurer un environnement de développement pour Powershell
 
-![Test Extension](\assets\images\post\2020-07-31-Remote _Containers\TryExtension.png "Test Extension")
+![Test Extension](\assets\images\post\2020-07-27-Remote _Containers\TryExtension.png "Test Extension")
 
 Dans cette capture d'écran nous voyons 3 possibilité qui sont assez claire :
 * Open folder (ouvrir un dossier existant dans un container)
@@ -102,13 +102,13 @@ Dans cette capture d'écran nous voyons 3 possibilité qui sont assez claire :
 
 Je vais utiliser la première dans cette article. Pour se faire je créé un répertoire dans mon arborescence qui va me servir de test
 
-![PS DEMO](\assets\images\post\2020-07-31-Remote _Containers\PSDemo.png "PS Demo")
+![PS DEMO](\assets\images\post\2020-07-27-Remote _Containers\PSDemo.png "PS Demo")
 
 Comme pour les tests, je clique sur l'icone en bas a gauche dans VSCode et je choisis ```Open folder in container``` et choisir le dossier précédemment crée.
 
 Une fenêtre de selection d'environnement un peu plus étoffée que la précédente apparaît
 
-![Selection Env](\assets\images\post\2020-07-31-Remote _Containers\SelectionEnv.png "Selection Env")
+![Selection Env](\assets\images\post\2020-07-27-Remote _Containers\SelectionEnv.png "Selection Env")
 
 Dans cette fenêtre rechercher ```Powershell``` et le lancer
 
@@ -138,7 +138,7 @@ En regardant dans le fichier ```devcontainer.json``` on remarque une partie exte
 
 0n le voit bien en regardant dans la liste des extensions installées, on a bien des extensions locales et des extensions dans le container. Ici dans le container je n'ai que Powershell puisque c'est la seule extension que je demande a installer dans le fichier ```devcontainer.json```
 
-![Extension Container](\assets\images\post\2020-07-31-Remote _Containers\ListeExtensionContainer.png "Extension Container")
+![Extension Container](\assets\images\post\2020-07-27-Remote _Containers\ListeExtensionContainer.png "Extension Container")
 
 je vais ajouter une extension Code Spell Checker et le pack de langue francais.
 
@@ -154,11 +154,11 @@ Pour ce faire je modifie le fichier en ajoutant :
 
 En cliquant sur l'icone en bas a gauche on peut choisir le menu ```Rebuild Container```
 
-![Rebuild Container](\assets\images\post\2020-07-31-Remote _Containers\RebuildContainer.png "Rebuild Container")
+![Rebuild Container](\assets\images\post\2020-07-27-Remote _Containers\RebuildContainer.png "Rebuild Container")
 
 En revérifiant la liste des extensions on voit bien que les nouvelles extensions sont installées dans le container mais pas sur ma machine locale
 
-![Extension Container](\assets\images\post\2020-07-31-Remote _Containers\ListeExtensionContainer2.png "Extension Container")
+![Extension Container](\assets\images\post\2020-07-27-Remote _Containers\ListeExtensionContainer2.png "Extension Container")
 
 PARFAIT ! je peux donc configurer mon VSCode différemment pour chaque environnement de développement.
 
@@ -193,7 +193,7 @@ Je m'intéresse, par exemple, a GO et Node.js et je peux donc utilise cette exte
 
 Autre avantage et pas des moindres, si vous choisissez Node.js comme environment tout est installé, il ne reste plus qu'a coder !
 
-![Node Container](\assets\images\post\2020-07-31-Remote _Containers\NodeContainer.png "Node Container")
+![Node Container](\assets\images\post\2020-07-27-Remote _Containers\NodeContainer.png "Node Container")
 
 ```powershell
 node@07d7f88a44d2:/workspaces/vscode-remote-try-node$ node --version
