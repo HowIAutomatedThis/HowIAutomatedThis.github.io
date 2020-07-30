@@ -170,7 +170,7 @@ Pour se faire dans le fichier ```devcontainer.json``` j'ajoute la commande suiva
 "postStartCommand": "pwsh -c 'Install-module PSHTML,PSAKE,PLASTER -scope CurrentUser -force'"
 ```
 
-en faisant ça, je demande à mon container d'executer la commande après son démarrage et d'installer les modules PSAKE, PLASTER et [PSHMTL](https://github.com/Stephanevg/PSHTML) (de mon ami Stéphane Van Gullick)
+en faisant ça, je demande à mon container d'executer la commande après son démarrage et d'installer les modules PSAKE, PLASTER et [PSHTML](https://github.com/Stephanevg/PSHTML) (de mon ami Stéphane Van Gullick)
 
 RE-PARFAIT ! Je peux configurer mon environnement de développement comme je le souhaites.
 
