@@ -4,6 +4,7 @@ excerpt: Utiliser des jeux de paramètres pour simplifier les commandes PowerShe
 tags:
   - Powershell
   - Fonctions Avancées
+  - Niv100
 categories:
   - Powershell
 header:

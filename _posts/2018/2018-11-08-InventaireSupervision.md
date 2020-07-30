@@ -4,6 +4,7 @@ excerpt: "Avoir un état de la synchronisation entre son inventaire et sa superv
 tags:
   - Powershell
   - MySql
+  - Niv100
 categories:
   - Powershell
 header:
