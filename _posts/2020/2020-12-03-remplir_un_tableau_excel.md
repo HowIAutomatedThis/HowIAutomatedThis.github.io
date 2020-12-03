@@ -91,3 +91,7 @@ En effet la date dans le nom du fichier est sous la forme _07072020_. Évidement
 Pour faire cela j'utilise à la fois la fonction _concat()_ et la fonction _substring()_
 
 <p style="text-align: center;">concat(substring(variables('ArrayFileNameSplit')[1],0,2),'/',substring(variables('ArrayFileNameSplit')[1],2,2),'/',substring(variables('ArrayFileNameSplit')[1],4,4))</p>
+
+## Mettre à jour le fichier excel
+
+EN COURS DE REDACTION :-)
