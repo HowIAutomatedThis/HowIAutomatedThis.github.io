@@ -84,7 +84,7 @@ je fais de même pour toutes les variables
 
 ![Liste Variable](\assets\images\post\2020-12-03-remplir_un_tableau_excel\ListeVariable.png "Liste Variable")
 
-Il n'y a que pour la variable date de reception qu'il y a ue petite astuce.
+Il n'y a que pour la variable date de reception qu'il y a une petite astuce.
 
 En effet la date dans le nom du fichier est sous la forme _07072020_. Évidement dans mon fichier Excel j'aimerais qu'elle apparaisse sous la forme _07/07/2020_.
 
