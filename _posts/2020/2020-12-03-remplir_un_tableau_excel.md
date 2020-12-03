@@ -53,7 +53,7 @@ Pour pouvoir récupérer les informations, une nomenclature pour le document Wor
 
 Grâce a cette nomenclature nous avons toutes les informations nécessaire à insérer dans Excel.
 
-Première étape : Récupérer le nom du fichier sans le .docx.
+### Récupérer le nom du fichier sans le .docx.
 
 ![Nom du fichier avec extension](\assets\images\post\2020-12-03-remplir_un_tableau_excel\FileNameWithExtension.png "Nom du fichier avec extension")
 
@@ -63,3 +63,23 @@ Après avoir récupérer le nom du fichier avec son extension, j'utilise la fonc
 
 La fonction utilisé est :
 <p style="text-align: center;">split(variables('FileNameWithExtension'), '.')[0]</p>
+
+dernière étape, je découpe le nom du fichier sans extension dans un tableau pour pouvoir utiliser chaque information indépendamment.
+
+![Tableau de chaîne](\assets\images\post\2020-12-03-remplir_un_tableau_excel\ArrayFileNameSplit.png "Tableau de chaîne")
+
+La fonction utilisé est :
+<p style="text-align: center;">split(variables('FileNameWithoutExtension'), '_')</p>
+
+### Création des variables
+
+Maintenant que nous avons un tableau contenant toutes les informations nécessaire, nous allons initialiser les variables qui seront écrites dans Excel plus tard
+
+![Variable ARRRIVEE](\assets\images\post\2020-12-03-remplir_un_tableau_excel\VariableArrivee.png "Variable ARRRIVEE")
+
+La fonction utilisé est :
+<p style="text-align: center;">variables('ArrayFileNameSplit')[0]</p>
+
+je fais de même pour toutes les variables 
+
+![Liste Variable](\assets\images\post\2020-12-03-remplir_un_tableau_excel\ListeVariable.png "Liste Variable")
