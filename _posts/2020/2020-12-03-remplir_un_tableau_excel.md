@@ -40,6 +40,26 @@ La partie automatisation concerne tous ce qui touche au remplissage des informat
 
 La première étape est de définir une action qui va déclencher notre flow.
 
-Dans ce cas j'ai choisi de mettre un déclencheur sur la création d'un fichier (la réponse au courrier) dans un répertoire
+Dans ce cas j'ai choisi de mettre un déclencheur sur la création d'un fichier (la réponse au courrier) dans un répertoire _Nouvelles Réponses_
 
 ![Déclencheur](\assets\images\post\2020-12-03-remplir_un_tableau_excel\Declencheur.png "Déclencheur")
+
+## Les variables
+
+Les variables sont les éléments qui vont contenir les informations que l'on va devoir écrire dans le fichier Excel.
+
+Pour pouvoir récupérer les informations, une nomenclature pour le document Word de réponse a été définie :
+<p style="text-align: center;">ARRIVEE_DATE_EMETTEUR_OBJECT_TRANSMIS.docx</p>
+
+Grâce a cette nomenclature nous avons toutes les informations nécessaire à insérer dans Excel.
+
+Première étape : Récupérer le nom du fichier sans le .docx.
+
+![Nom du fichier avec extension](\assets\images\post\2020-12-03-remplir_un_tableau_excel\FileNameWithExtension.png "Nom du fichier avec extension")
+
+Après avoir récupérer le nom du fichier avec son extension, j'utilise la fonction _split()_ pour enlever l'extension
+
+![Nom du fichier sans extension](\assets\images\post\2020-12-03-remplir_un_tableau_excel\FileNameWithoutExtension.png "Nom du fichier sans extension")
+
+La fonction utilisé est :
+<p style="text-align: center;">split(variables('FileNameWithExtension'), '.')[0]</p>
