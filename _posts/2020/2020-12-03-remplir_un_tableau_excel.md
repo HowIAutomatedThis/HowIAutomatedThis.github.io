@@ -83,3 +83,11 @@ La fonction utilisé est :
 je fais de même pour toutes les variables 
 
 ![Liste Variable](\assets\images\post\2020-12-03-remplir_un_tableau_excel\ListeVariable.png "Liste Variable")
+
+Il n'y a que pour la variable date de reception qu'il y a ue petite astuce.
+
+En effet la date dans le nom du fichier est sous la forme _07072020_. Évidement dans mon fichier Excel j'aimerais qu'elle apparaisse sous la forme _07/07/2020_.
+
+Pour faire cela j'utilise à la fois la fonction _concat()_ et la fonction _substring()_
+
+<p style="text-align: center;">concat(substring(variables('ArrayFileNameSplit')[1],0,2),'/',substring(variables('ArrayFileNameSplit')[1],2,2),'/',substring(variables('ArrayFileNameSplit')[1],4,4))</p>
