@@ -73,10 +73,16 @@ Dans les différentes ligne il faut jouer sur les valeurs jusqu'a ce que vous ob
 
 ### Chroma Key
 
+Ensuite nous allons a nouveau ajouter un filtre mais cette fois le filtre : Chroma Key
+
 ![Windows Capture Filter](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture-FilterChroma.png "Windows Capture filter")
+
+Il suffit de tous laisser par défaut et de valider.
 
 ![Windows Capture Filter](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture-FilterChroma-2.png "Windows Capture filter")
 
 ### Résultat
+
+Si tout c'est bien passé, dans OBS, vous devez obtenir un truc comme ca.
 
 ![Resultat](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\resultat.png "Resultat")
