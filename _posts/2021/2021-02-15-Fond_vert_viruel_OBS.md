@@ -55,18 +55,28 @@ Valider pour ajouter la fenêtre Skype dans vos sources
 
 ## troisième étape : appliquer les filtres
 
-### Crop
+### Crop/Pad
+
+Faite un clique droit sur la source que vous venez d'ajouter et choisir le menu Filtres
 
 ![Windows Capture Filter](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture-Filter.png "Windows Capture filter")
 
+Choisir le filtre Crop/Pad
+
 ![Windows Capture Filter](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture-FilterCrop.png "Windows Capture filter")
+
+C'est la qu'il va falloir y aller un peu au pifomètre ;-)
+
+Dans les différentes ligne il faut jouer sur les valeurs jusqu'a ce que vous obteniez un cadrage correcte.
 
 ![Windows Capture Filter](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture-FilterCrop-2.png "Windows Capture filter")
 
-### Chroma
+### Chroma Key
 
 ![Windows Capture Filter](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture-FilterChroma.png "Windows Capture filter")
 
 ![Windows Capture Filter](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture-FilterChroma-2.png "Windows Capture filter")
+
+### Résultat
 
 ![Resultat](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\resultat.png "Resultat")
