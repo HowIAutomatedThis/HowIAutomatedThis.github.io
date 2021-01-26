@@ -89,6 +89,6 @@ Si tout c'est bien passé, dans OBS, vous devez obtenir un truc comme ca.
 
 Nous avons donc un fond vert ... sans fond vert ! Pari rempli !
 
-### What's next ?
+## What's next ?
 
 Je voudrais pouvoir envoyer dans Teams lors de mon meetup ce qui sort d'OBS pour faire de belle présentation avec toute la puissance D'OBS.
