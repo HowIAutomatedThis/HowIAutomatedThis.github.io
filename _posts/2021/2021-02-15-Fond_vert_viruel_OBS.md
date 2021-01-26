@@ -17,7 +17,7 @@ header:
 
 Streamer n'est pas l'une de mes activités, mais je fais beaucoup de Meetup avec Microsoft Teams.
 
-Je cherchais un moyen de rendre mes Meetup et ceux du French PowerShell & DevOps UserGroup un peu plus sexy 
+Je cherchais un moyen de rendre mes Meetup et ceux du [French Powershell UserGroup](https://frpsug.com) un peu plus sexy 
 
 Comme je le disais plus haut je ne fait pas de vrai stream et en plus je n'ai pas de bureau dédié chez moi pour poser mon ordinateur. L'achat d'un fond vert n'étais donc pas la meilleur solution dans mon cas
 
