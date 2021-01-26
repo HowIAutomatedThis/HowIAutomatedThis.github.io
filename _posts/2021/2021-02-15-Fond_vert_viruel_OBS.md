@@ -81,7 +81,7 @@ Il suffit de tous laisser par défaut et de valider.
 
 ![Windows Capture Filter](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture-FilterChroma-2.png "Windows Capture filter")
 
-### Résultat
+## Résultat
 
 Si tout c'est bien passé, dans OBS, vous devez obtenir un truc comme ca.
 
