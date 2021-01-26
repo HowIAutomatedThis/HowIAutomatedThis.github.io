@@ -67,6 +67,6 @@ Il ne reste plus qu'a faire une nouvelle réunion Teams en prenant garde de bien
 
 ## Résultat
 
-Pas de panique si vous voyez tous inverser, les personnes qui regardent voient bien tout a l'endroit :-)
+Pas de panique si vous voyez tous inversé, les personnes qui regardent voient bien tout a l'endroit :-)
 
 ![Résultat](\assets\images\post\2021-02-15-OBS_dans_Teams\RESULTAT.png "Résultat")
