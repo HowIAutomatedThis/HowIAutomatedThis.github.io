@@ -8,8 +8,8 @@ tags:
 categories:
   - Streaming
 header:
-  teaser: /assets/images/header/PowerAutomate.png
-  overlay_image: /assets/images/header/PowerAutomateBandeau.png
+  teaser: /assets/images/header/OBS-Logo.png
+  overlay_image: /assets/images/header/OBS-Bandeau.png
   overlay_filter: 0.5
 ---
 
