@@ -31,4 +31,20 @@ Je ne vais pas m'étaler sur cette partie. On execute le fichier et suivant, sui
 
 ## Seconde étape : Configurer NDI dans OBS
 
+Dans le menu d'OBS choisir Tools puis NDI Output settings
+
 ![NDI Menu](\assets\images\post\2021-02-15-OBS_dans_Teams\OBS-NDI-MENU.png "NDI Menu")
+
+Cocher la case Main Output et changer le nom si vous le souhaitez. Ce nom va être réutilisé plus tard il faudra s'en souvenir. Moi je vais laisser OBS
+
+![NDI Activation](\assets\images\post\2021-02-15-OBS_dans_Teams\OBS-NDI-ACTIVATION.png "NDI Activation")
+
+## Troisième étape : Configurer le NDI sur Teams
+
+Pour pouvoir utiliser un périphérique NDI, il faut d'abord dans Teams activé cette option. Cela se fait dans les paramètres
+
+![Paramètre Teams](\assets\images\post\2021-02-15-OBS_dans_Teams\TEAMS-PARAM.png "Paramètre Teams")
+
+puis dans le menu Autorisations
+
+![Autorisation Teams](\assets\images\post\2021-02-15-OBS_dans_Teams\TEAMS-AUTORISATION.png "Autorisation Teams")
