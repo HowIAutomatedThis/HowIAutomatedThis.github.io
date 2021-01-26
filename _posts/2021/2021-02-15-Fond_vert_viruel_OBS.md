@@ -29,13 +29,13 @@ Produits utilisés :
 * Skype
 * OBS
 
-# Première étape : Ajout d'un fond vert
+## Première étape : Ajout d'un fond vert
 
-Pour ca je passe par les Settings de Skype en affichant la preview de la webcam.
+Pour ça je passe par les Settings de Skype en affichant la preview de la webcam.
 
 ![Preview Skype](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\Preview-Skype.png "Preview Skype")
 
-De la, j'ajoute en background un fond vert que j'ai tout simplement chercher sur internet
+De là, j'ajoute en background un fond vert que j'ai tout simplement chercher sur internet
 
 ![Windows Capture](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture.png "Windows Capture")
 
