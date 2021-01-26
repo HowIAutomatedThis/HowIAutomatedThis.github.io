@@ -14,3 +14,24 @@ header:
 ---
 
 ## Introduction
+
+
+![Preview Skype](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\Preview-Skype.png "Preview Skype")
+
+![Windows Capture](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture.png "Windows Capture")
+
+![Windows Capture](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture-2.png "Windows Capture")
+
+![Windows Capture](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture-3.png "Windows Capture")
+
+![Windows Capture Filter](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture-Filter.png "Windows Capture filter")
+
+![Windows Capture Filter](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture-FilterCrop.png "Windows Capture filter")
+
+![Windows Capture Filter](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture-FilterCrop-2.png "Windows Capture filter")
+
+![Windows Capture Filter](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture-FilterChroma.png "Windows Capture filter")
+
+![Windows Capture Filter](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture-FilterChroma-2.png "Windows Capture filter")
+
+![Resultat](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\resultat.png "Resultat")
