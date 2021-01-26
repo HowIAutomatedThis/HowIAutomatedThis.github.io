@@ -39,7 +39,17 @@ Cocher la case Main Output et changer le nom si vous le souhaitez. Ce nom va êt
 
 ![NDI Activation](\assets\images\post\2021-02-15-OBS_dans_Teams\OBS-NDI-ACTIVATION.png "NDI Activation")
 
-## Troisième étape : Configurer le NDI sur Teams
+## Troisième étape : Utilisation NDI Tools sur Windows
+
+Après l'installation des NDI Tools, dans le menu démarrer vous devez retrouver l'application : Webcam Input qu'il suffit d'executer
+
+![Webcam Input](\assets\images\post\2021-02-15-OBS_dans_Teams\WEBCAM-IMPUT-STARTMENU.png "Webcam Input")
+
+Allez dans la zone de notification et choisir sur Webcam Input la caméra que nous avons créée dans la seconde partie 
+
+![Webcam Input](\assets\images\post\2021-02-15-OBS_dans_Teams\CHOIX-WEBCAM-INPUT.png "Webcam Input")
+
+## Quatrième étape : Configurer le NDI sur Teams
 
 Pour pouvoir utiliser un périphérique NDI, il faut d'abord dans Teams activé cette option. Cela se fait dans les paramètres
 
@@ -48,3 +58,15 @@ Pour pouvoir utiliser un périphérique NDI, il faut d'abord dans Teams activé 
 puis dans le menu Autorisations
 
 ![Autorisation Teams](\assets\images\post\2021-02-15-OBS_dans_Teams\TEAMS-AUTORISATION.png "Autorisation Teams")
+
+Une fois l'option NDI d'activé, tout est prêt. 
+
+Il ne reste plus qu'a faire une nouvelle réunion Teams en prenant garde de bien mettre Newtek NDI  Video comme Webcam
+
+![Meetup Teams](\assets\images\post\2021-02-15-OBS_dans_Teams\MEETUP-TEAMS.png "Meetup Teams")
+
+## Résultat
+
+Pas de panique si vous voyez tous inverser, les personnes qui regardent voient bien tout a l'endroit :-)
+
+![Résultat](\assets\images\post\2021-02-15-OBS_dans_Teams\RESULTAT.png "Résultat")
