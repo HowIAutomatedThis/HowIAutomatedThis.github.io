@@ -37,17 +37,33 @@ Pour ça je passe par les Settings de Skype en affichant la preview de la webcam
 
 De là, j'ajoute en background un fond vert que j'ai tout simplement chercher sur internet
 
+Il est important de noter que cette fenêtre doit toujours rester a l'écran. Il ne faut pas la réduire dans la barre des tâches ou encore pire la fermer.
+
+## Seconde étape : ajouter skype dans OBS
+
+Au niveau d'OBS, dans les sources, ajouter une source Windows Capture
+
 ![Windows Capture](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture.png "Windows Capture")
+
+Donner un nom a la source ici : Skype WebCam
 
 ![Windows Capture](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture-2.png "Windows Capture")
 
+Valider pour ajouter la fenêtre Skype dans vos sources
+
 ![Windows Capture](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture-3.png "Windows Capture")
+
+## troisième étape : appliquer les filtres
+
+### Crop
 
 ![Windows Capture Filter](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture-Filter.png "Windows Capture filter")
 
 ![Windows Capture Filter](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture-FilterCrop.png "Windows Capture filter")
 
 ![Windows Capture Filter](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture-FilterCrop-2.png "Windows Capture filter")
+
+### Chroma
 
 ![Windows Capture Filter](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture-FilterChroma.png "Windows Capture filter")
 
