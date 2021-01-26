@@ -15,8 +15,31 @@ header:
 
 ## Introduction
 
+Streamer n'est pas l'une de mes activités, mais je fais beaucoup de Meetup avec Microsoft Teams.
+
+Je cherchais un moyen de rendre mes Meetup et ceux du French PowerShell & DevOps UserGroup un peu plus sexy 
+
+La première étape est tout naturellement la mise en place d'un fond vert pour ne pas jurer sur ma présentation ;-)
+
+Comme je le disais plus haut je ne fait pas de vrai stream et en plus je n'ai pas de bureau dédié chez moi pour poser mon ordinateur. L'achat d'un fond vert n'étais donc pas la meilleur solution dans mon cas
+
+J'ai donc cherché une solution pour faire un fond vert ... mais sans fond vert ;-)
+
+Je vais vous présenter la solution que j'ai trouvé et testé !
+
+Attention cette solution s'approche plus de la bidouille mais reste utilisable quand même
+
+Produits utilisés : 
+* Skype
+* OBS
+
+Première étape : il fallait une solution pour capture ma Webcam et pouvoir y ajouter un fond vert
+
+Pour ca je passe par les Settings de Skype en affichant la preview de la webcam.
 
 ![Preview Skype](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\Preview-Skype.png "Preview Skype")
+
+De la, j'ajoute en background un fond vert que j'ai tout simplement chercher sur internet
 
 ![Windows Capture](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture.png "Windows Capture")
 
