@@ -53,7 +53,7 @@ Valider pour ajouter la fenêtre Skype dans vos sources
 
 ![Windows Capture](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\OBS-Add-WindowsDeviceCapture-3.png "Windows Capture")
 
-## troisième étape : appliquer les filtres
+## Troisième étape : appliquer les filtres
 
 ### Crop/Pad
 
