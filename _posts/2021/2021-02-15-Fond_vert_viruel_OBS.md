@@ -86,3 +86,5 @@ Il suffit de tous laisser par défaut et de valider.
 Si tout c'est bien passé, dans OBS, vous devez obtenir un truc comme ca.
 
 ![Resultat](\assets\images\post\2021-02-15-Fond_vert_viruel_OBS\resultat.png "Resultat")
+
+Nous avons donc un fond vert ... sans fond vert ! Pari rempli !
