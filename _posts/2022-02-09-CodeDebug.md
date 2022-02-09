@@ -48,10 +48,13 @@ Se placer sur la ligne de code et faire F1 puis chercher ```Toggle Breakpoint```
 * le menu ```Run```
 
 Se placer sur la ligne de code et cliquer sur ```Run``` puis sur ```Toggle Breakpoint```
+
 ![Point d'Arrêt menu](/assets/img/posts/20220209/pointarretmenu.png "Point d'Arrêt Menu")
 
 ```text
-On peut voir dans ce menu qu'il y a un autre sous-menu New Breakpoint qui propose d'autre type de points d'arrêt. Cela sera l'objet d'un autre article
+On peut voir dans ce menu qu'il y a un autre sous-menu New Breakpoint qui propose d'autre type de points d'arrêt. 
+
+Cela sera l'objet d'un autre article
 ```
 
 ## _mode Debug_
@@ -92,7 +95,7 @@ Sur la barre de debug, on peut voir les informations suivantes :
 
 ### __Comment récupérer la valeur d'une variable ?__
 
-Une  fois le point d'arrêt définis et le mode debug lancer, le script stop au point d'arrêt.
+Une  fois le point d'arrêt définis et le mode debug lancé, le script stop au point d'arrêt.
 
 A partir d'ici on peut vérifier la valeur d'une variable par exemple dans la console
 
@@ -102,7 +105,7 @@ Dans cette exemple, la variable ```$files``` ne retourne rien car la ligne 9 ne 
 
 ![Variable dans la console](/assets/img/posts/20220209/VariableDansLaConsole1.png)
 
-L'exécution de la ligne 9 se fait et le debugger stop à la ligne suivante. Maintenant la variables ```$files``` contient bien les fichiers contenu dans le dossier
+L'exécution de la ligne 9 se fait et le debugger stop à la ligne suivante. Maintenant la variables ```$files``` contient bien les fichiers contenus dans le dossier
 
 On peut également retrouver toutes les variables liées au script dans la palette ```VARIABLES``` sur le coté
 
