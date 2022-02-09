@@ -11,7 +11,7 @@ permalink: /blog/CodeDebug/
 usemathjax: true
 ---
 
-## C'est quoi le debugging ?
+## _C'est quoi le debugging ?_
 
 Le débogage est le processus de détection et de suppression des erreurs existantes et potentielles (également appelées «bogues») dans un code logiciel qui peuvent provoquer un comportement inattendu ou un plantage.
 
@@ -27,9 +27,9 @@ Si tu ne connais pas Visual Studio Code je t'invite à l'installer immédiatemen
 
 C'est à mon avis le meilleur éditeur du moment pour coder
 
-## Debugging dans VSCode
+## _Debugging dans VSCode_
 
-### Les points d'arrêt
+### __Les points d'arrêt__
 
 Le point d'arrêt, comme son non l'indique, est un point que l'on va poser dans notre code pour stopper l'execution du code a un endroit.
 
@@ -45,7 +45,16 @@ Se placer sur la ligne de code et faire F9. (un nouvel appui sur F9 supprime le 
 Se placer sur la ligne de code et faire F1 puis chercher ```Toggle Breakpoint```
 ![Point d'Arrêt F9](/assets/img/posts/20220209/pointarretpalette.png "Point d'Arrêt F9")
 
-## mode Debug
+* le menu ```Run```
+
+Se placer sur la ligne de code et cliquer sur ```Run``` puis sur ```Toggle Breakpoint```
+![Point d'Arrêt menu](/assets/img/posts/20220209/pointarretmenu.png "Point d'Arrêt Menu")
+
+```text
+On peut voir dans ce menu qu'il y a un autre sous-menu New Breakpoint qui propose d'autre type de points d'arrêt. Cela sera l'objet d'un autre article
+```
+
+## _mode Debug_
 
 une fois le (ou les points d'arrêt) placé(s), on peut démarrer le débogage
 
@@ -65,7 +74,7 @@ Plusieurs éléments apparaissent dans VSCode en mode Debug
 
 ![Palette](/assets/img/posts/20220209/palette.png "Palette")
 
-### la barre de debug
+### __la barre de debug__
 
 Sur la barre de debug, on peut voir les informations suivantes :
 
@@ -80,3 +89,35 @@ Sur la barre de debug, on peut voir les informations suivantes :
 ![Restart](/assets/img/posts/20220209/BarDebugRestart.png) Restart [Ctrl+Shift+F5] => relance le debug du script
 
 ![Stop](/assets/img/posts/20220209/BarDebugStop.png) Stop [Shift+F5] => stop le mode debug
+
+### __Comment récupérer la valeur d'une variable ?__
+
+Une  fois le point d'arrêt définis et le mode debug lancer, le script stop au point d'arrêt.
+
+A partir d'ici on peut vérifier la valeur d'une variable par exemple dans la console
+
+![Variable dans la console](/assets/img/posts/20220209/VariableDansLaConsole.png)
+
+Dans cette exemple, la variable ```$files``` ne retourne rien car la ligne 9 ne c'est pas encore exécutée. Pour executer la ligne 9 il suffit de cliquer sur F10 pour passer à la ligne de code suivante.
+
+![Variable dans la console](/assets/img/posts/20220209/VariableDansLaConsole1.png)
+
+L'exécution de la ligne 9 se fait et le debugger stop à la ligne suivante. Maintenant la variables ```$files``` contient bien les fichiers contenu dans le dossier
+
+On peut également retrouver toutes les variables liées au script dans la palette ```VARIABLES``` sur le coté
+
+![Variable dans la palette](/assets/img/posts/20220209/VariableDansLaPalette.png)
+
+Et enfin on peut utiliser le palette ```WATCH``` pour voir les modifications de la variable.
+
+![Variable dans la palette](/assets/img/posts/20220209/VariableDansLaPalette1.png)
+
+Cliquer sur le signe + et mettre le nom de la variable que vous voulez suivre (ici je veux suivre la valeur de ```$x```)
+
+Utiliser la touche F10 pour continuer le debug et voir la valeur de la variable ```$x``` changer dans la palette ```WATCH```
+
+![Variable dans la palette](/assets/img/posts/20220209/VariableDansLaPalette2.png)
+
+![Variable dans la palette](/assets/img/posts/20220209/VariableDansLaPalette3.png)
+
+A chaque passage dans la boucle ```ForEach``` la valeur de la variable ```$x``` change dans la palette ```WATCH```
