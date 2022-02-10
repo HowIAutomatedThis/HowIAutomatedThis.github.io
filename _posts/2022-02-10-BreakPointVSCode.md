@@ -4,9 +4,9 @@ title: "Break point VS Code"
 summary: "Les différents types de Break Point dans Visual Studio Code"
 author: laurent
 date: '2022-02-10 06:00:00 +0530'
-category: ['VSCode', 'Niv100']
+category: ['VSCode', 'Niv200']
 thumbnail: /assets/img/header/Coding_1436x500.png
-keywords: VSCode, Niv100, Debugging, Break Point
+keywords: VSCode, Niv200, Debugging, Break Point
 permalink: /blog/BreakPointVSCode/
 usemathjax: true
 ---

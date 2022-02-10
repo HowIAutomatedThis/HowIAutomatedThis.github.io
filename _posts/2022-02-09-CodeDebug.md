@@ -4,7 +4,7 @@ title: "Code Debugging"
 summary: "Utilisation basique du debug dans VScode"
 author: laurent
 date: '2022-02-09 14:35:23 +0530'
-category: ['PowerShell', 'Niv100']
+category: ['VSCode', 'PowerShell', 'Niv100']
 thumbnail: /assets/img/header/Coding_1436x500.png
 keywords: PowerShell, Niv100, Debugging, VSCode
 permalink: /blog/CodeDebug/
