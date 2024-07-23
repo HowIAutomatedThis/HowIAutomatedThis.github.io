@@ -36,7 +36,7 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
 # Experiences
 author_work_experiences:
             - company_name: Extia
-              company_logo: 
+              company_logo: Logo Extia.png
               company_url: https://www.extia-group.com/
               designation: Ingénieur - Consultant
             - company_name: Ophèa
