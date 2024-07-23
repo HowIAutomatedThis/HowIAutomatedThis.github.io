@@ -39,6 +39,7 @@ author_work_experiences:
               company_logo: Logo Extia.png
               company_url: https://www.extia-group.com/
               designation: Ingénieur - Consultant
+              visibility: true
             - company_name: Ophèa
               company_logo: Ophea.png
               company_url: https://www.ophea.fr/
